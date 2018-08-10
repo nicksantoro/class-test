@@ -1,46 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Jazz Albums</title>
 	<link rel="stylesheet" type="text/css" href="styling.css">
 </head>
+
 <body>
 
-  <header class="top">
-  	<nav id="top-list">
-      <ul id="list">
-  	    <li>
-  	      Home
-  	    </li>
-  	    <li>
-  	  	  About
-  	    </li>
-  	    <li>
-  	      <a href="mailto:santoro.nick@gmail.com">Contact</a>
-  	    </li>
-  	  </ul>
+  <header class="header">
+  	<nav class="tabs">
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Contact</a>
     </nav>
   </header>
 
-  <hr/>
-
-  <h1 id="page-title">JAZZ ALBUM ART</h1>
-
-  <hr/>
+  <form class="input">
+    <label>
+      Username:
+      <input
+        type="text"
+        name="Name"
+        placeholder="Name"
+        required="true">
+    </label>
+    <label>
+      Password:
+      <input
+        type="password"
+        name="Password"
+        placeholder="Password"
+        required="true">
+    </label>
+    <input
+      type="submit"
+      name="Submit">
+  </form>
 
   <main>
-    <div class="images">
-	  <section class="covers">
-	    <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Tutu.jpg">
-	      <a href="https://youtu.be/7IO_YmgyyRw"> 
-	        <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/TinaBrooksTrueBlue.jpg">
-	      </a>
-	    <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Movin-Wes.jpg">
-	    <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Monk-rollins.jpg">
-	    <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Unity.jpg">
-	    <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/JATP-8.jpg">
+
+    <h1 class="page-title">JAZZ</h1>
+
+    <section class="covers">
+			<p class="test">Click the albums below to listen</p>
+      <a href="https://youtu.be/4qoNZnWcb7M">
+        <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Tutu.jpg">
+      </a>
+
+	    <a href="https://youtu.be/7IO_YmgyyRw">
+	      <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/TinaBrooksTrueBlue.jpg">
+	    </a>
+
+      <a href="https://youtu.be/4iFXoNse-Z0">
+        <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Movin-Wes.jpg">
+      </a>
+
+      <a href="https://youtu.be/BVjakWUFY7g">
+        <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Monk-rollins.jpg">
+      </a>
+
+      <a href="https://youtu.be/GYQNsuzMXiQ">
+        <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/Unity.jpg">
+      </a>
+
+      <a href="https://youtu.be/Xv8PNMcEvps">
+        <img src="https://www.udiscovermusic.com/wp-content/uploads/2015/10/JATP-8.jpg">
+      </a>
 	  </section>
-    </div>
+
   </main>
 
   <footer class="footer">
@@ -48,15 +76,10 @@
       Images Not By Me
     </p>
   	<p>
-  	  Contact information: <a href="mailto:santoro.nick@gmail.com">my email</a>.
+  	  Contact information: <a href="mailto:santoro.nick@gmail.com">my email</a>
   	</p>
   </footer>
 
+
 </body>
 </html>
-
-
-
-
-
-
